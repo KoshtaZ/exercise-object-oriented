@@ -1,6 +1,6 @@
 package pratice.ex0011.service;
 
-public class AngolaTaxService {
+public class AngolaTaxService implements TaxService{
 
     public double tax(double amount){
         if(amount <= 100.0){
